@@ -1,0 +1,8 @@
+nav a{
+  border: solid black 0.5px;
+  padding: 3px 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #0066ff;
+  box-shadow: 2px 2px;
+}
