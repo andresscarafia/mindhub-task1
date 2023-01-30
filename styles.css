@@ -24,12 +24,12 @@ nav a{
   padding: 3px 10px;
   color: white;
   text-decoration: none;
-  background-color: #0066ff;
-  box-shadow: 2px 2px;
+  background-color: #3366cc;
+  box-shadow: 2px 2px black;
 }
 
 .link-activo{
-  background-color: lime;
+  background-color: #00cc66;
 }
 
 header img{
