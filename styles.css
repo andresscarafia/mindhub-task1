@@ -1,3 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+h1{
+  padding-top: 1rem;
+}
+
+nav{
+  position: relative;
+  text-align: end;
+}
+
 nav a{
   border: solid black 0.5px;
   padding: 3px 10px;
@@ -5,4 +26,42 @@ nav a{
   text-decoration: none;
   background-color: #0066ff;
   box-shadow: 2px 2px;
+}
+
+.link-activo{
+  background-color: lime;
+}
+
+header img{
+  max-width: 100%;
+}
+
+h2{
+  text-align: center;
+  border: solid black 0.01em;
+  margin: 0;
+}
+
+aside{
+  display: inline-block;
+}
+
+aside img{
+  width: 10em;
+}
+
+.contenido{
+  display: inline-block;
+  margin-left: 3em;
+  vertical-align: top;
+  padding-top: 3em;
+  max-width: 70%;
+}
+
+#index{
+  padding-top: 1em;
+}
+
+ul h3{
+  font-style: italic;
 }
