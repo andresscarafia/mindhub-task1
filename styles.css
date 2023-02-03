@@ -50,6 +50,11 @@ aside img{
   width: 10em;
 }
 
+.aclaracion{
+  margin-bottom: 2em;
+  font-weight: lighter;
+}
+
 .contenido{
   display: inline-block;
   margin-left: 3em;
@@ -68,3 +73,31 @@ ul li{
 ul h3{
   font-style: italic;
 }
+
+.info{
+  margin-top: 3em;
+}
+
+td:nth-child(1){
+  text-align: center;
+}
+
+td,
+th{
+  padding: 0.5em 1.5em;
+  margin: 0;
+}
+
+span{
+  display: block;
+  margin: 1em auto;
+}
+
+span.inline-block{
+  display: inline-block;
+}
+
+div span:nth-child(4){
+  margin-right: 4em;
+}
+
