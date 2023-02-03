@@ -32,7 +32,7 @@ nav a{
   background-color: #00cc66;
 }
 
-header img{
+.banner-img{
   max-width: 100%;
 }
 
@@ -101,3 +101,16 @@ div span:nth-child(4){
   margin-right: 4em;
 }
 
+.indent{
+  text-indent: 2em;
+}
+
+.center-no-bold{
+  text-align: center;
+  font-weight: normal;
+}
+
+ul.all-play{
+  list-style-type: circle;
+  padding-left: 3em;
+}
