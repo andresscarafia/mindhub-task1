@@ -114,3 +114,9 @@ ul.all-play{
   list-style-type: circle;
   padding-left: 3em;
 }
+
+.mapas{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
