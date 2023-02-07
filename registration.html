@@ -23,69 +23,70 @@
       <div class="contenido" id="index">
         <form action="show_data.html" method="get">
           <label>
-            <span>Player's First Name</span>
+            <span>Player's First Name:</span>
             <input type="text" name="first_name" id="">
           </label>
           <label>
-            <span>Last Name</span>
+            <span>Last Name:</span>
             <input type="text" name="last_name">
           </label>
           <label>
-            <span>Street Address</span>
+            <span>Street Address:</span>
             <input type="text" name="street_address">
           </label>
           <label>
-            <span>City</span>
+            <span>City:</span>
             <input type="text" name="city">
           </label>
           <label>
-            <span>Zip Code</span>
+            <span>Zip Code:</span>
             <input type="text" name="zip_code">
           </label>
           <label>
-            <span>Birth Date(mm/dd/yyyy)</span>
+            <span>Birth Date(mm/dd/yyyy):</span>
             <input type="text" name="birth_date">
           </label>
-          <label>
-            <span>Gender</span>
-            <label>
-              <span>Male</span>
-              <input type="radio" name="gender" value="male">
-            </label>
+          <fieldset>
+            <legend>Gender:</legend>
             <label>
               <span>Female</span>
               <input type="radio" name="gender" value="female">
             </label>
-          </label>
-          <label>
-            <span>Grade</span>
             <label>
-              <span>Pre-school</span>
+              <span>Male</span>
+              <input type="radio" name="gender" value="male">
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Grade:</legend>
+            <label>
               <input type="radio" name="grade" value="pre-school">
+              <span>Pre-School</span>
             </label>
             <label>
-              <span>1st</span>
               <input type="radio" name="grade" value="1st">
+              <span>1st</span>
             </label>
             <label>
-              <span>2nd</span>
               <input type="radio" name="grade" value="2nd">
+              <span>2nd</span>
             </label>
             <label>
-              <span>3rd</span>
               <input type="radio" name="grade" value="3rd">
+              <span>3rd</span>
             </label>
             <label>
-              <span>4th</span>
               <input type="radio" name="grade" value="4th">
+              <span>4th</span>
             </label>
             <label>
-              <span>5th</span>
               <input type="radio" name="grade" value="5th">
+              <span>5th</span>
             </label>
-          </label>
+          </fieldset>
           <label>
-            <span>Closest school</span>
+            <span>Which elementary school do you live near?</span>
+            <span>Closest school:</span>
             <select name="school">
               <option value="" selected disabled>Select a School... </option>
               <option value="aj">AJ Katzenmaier</option>
@@ -96,56 +97,56 @@
               <option value="south">South Elementary</option>
             </select>
           </label>
-          <label>
-            <span>Position</span>
+          <fieldset>
+            <legend>What position(s) do you normally play? (check all that apply)</legend>
             <label>
-              <span>Forward</span>
               <input type="checkbox" name="position" value="forward">
+              <span>Forward</span>
             </label>
             <label>
-              <span>Defense</span>
               <input type="checkbox" name="position" value="defense">
+              <span>Defense</span>
             </label>
             <label>
-              <span>Midfield</span>
               <input type="checkbox" name="position" value="midfield">
+              <span>Midfield</span>
             </label>
             <label>
-              <span>Goalkeeper</span>
               <input type="checkbox" name="position" value="goalkeeper">
+              <span>Goalkeeper</span>
             </label>
-          </label>
-          <label>
-            <span>Unifrom Size</span>
+          </fieldset>
+          <fieldset>
+            <legend>Unifrom Size:</legend>
             <label>
-              <span>Youth Small</span>
               <input type="radio" name="uniform" value="youth-small">
+              <span>Youth Small</span>
             </label>
             <label>
-              <span>Youth Medium</span>
               <input type="radio" name="uniform" value="youth-medium">
+              <span>Youth Medium</span>
             </label>
             <label>
-              <span>Youth Large</span>
               <input type="radio" name="uniform" value="youth-large">
+              <span>Youth Large</span>
             </label>
             <label>
-              <span>Small</span>
               <input type="radio" name="uniform" value="small">
+              <span>Small</span>
             </label>
             <label>
-              <span>Medium</span>
               <input type="radio" name="uniform" value="medium">
+              <span>Medium</span>
             </label>
             <label>
-              <span>Large</span>
               <input type="radio" name="uniform" value="large">
+              <span>Large</span>
             </label>
             <label>
-              <span>Extra-Large</span>
               <input type="radio" name="uniform" value="extra-large">
+              <span>Extra-Large</span>
             </label>
-          </label>
+          </fieldset>
           <h3>Permission to play</h3>
           <p>
             I, the parent or guardian of the minor registrant, agree that the registrant
@@ -162,11 +163,11 @@
             policy and agree to its terms.
           </p>
           <label>
-            <span>Parent/Guardian Signature</span>
+            <span>Parent/Guardian Signature:</span>
             <input type="text" name="signature">
           </label>
           <label>
-            <span>Date</span>
+            <span>Date:</span>
             <input type="text" name="date" id="">
           </label>
           <input type="submit">
